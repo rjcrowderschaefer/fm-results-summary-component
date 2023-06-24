@@ -67,33 +67,34 @@ h5 {
 }
 
 .summary-header {
-    font-weight: 700;
+    color: #303b59;
+    font-weight: 500;
     margin: 25px 0 20px 25px;
 }
 
 .summary-details {
     background-color: #fff6f5;
     display: flex;
-    justify-content: flex-start;
     padding: 18px 10px 18px 15px;
     margin: 5px 25px 5px 25px;
     border-radius: 10px;
 }
 
 #memory-details {
-    
+    background-color: #fffbf2;
 }
 
 #verbal-details {
-
+    background-color: #f2fbfa;
 }
 
 #visual-details {
-
+    background-color: #f3f3fd;
 }
 
 .detail-svg {
     position: relative;
+    display: inline;
     margin-right: 10px;
 }
 
@@ -102,16 +103,50 @@ h5 {
     display: inline;
 }
 
+#memory {
+    color: #fdbd65;
+    display: inline;
+}
+
+#verbal {
+    color: #14be8d;
+    display: inline;
+}
+
+#visual {
+    color: #121fa2;
+    display: inline;
+}
+
 .summary-score {
+    color: #303548;
     display: inline;
     font-weight: 500;
-    margin-left: 160px
+    margin-left: auto;
+    padding-right: 5px;
 }
 
 .out-of-100 {
     display: inline;
     opacity: .4;
+    margin-left: 3px;
 }
+
+.button {
+    background-color: #303b59;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 18px 10px 18px 15px;
+    margin: 20px 25px 20px 25px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-image: linear-gradient(#6842ff, #3229ea);
+    cursor: pointer;
+}
+
 
 .attribution { 
     font-size: 11px; text-align: center;
