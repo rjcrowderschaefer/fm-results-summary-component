@@ -51,10 +51,8 @@ Through this project I was able to successfully implement a mobile-first approac
 
 I'm continuing to develop my understanding of the parent and child relationship with HTML elements, specifically when it comes to placement and orientation of child elements (divs, etc) within a parent container.
 
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some code snipets that I'm proud of:</h1>
 ```
 ```css
 .score-circle {
